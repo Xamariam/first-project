@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'NotoSerif Regular';
+    src: url('../fonts/NotoSerif/NotoSerif-Regular.ttf');
+}
+
+body    {
+    margin: 0;
+    font-family: 'Roboto Regular', sans-serif;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+.header  {
+    padding: 20px;
+    border-bottom: 1px solid silver;
+    text-align: center;
+    flex: 0;
+    background-color: seashell;
+}
+
+.header-link {
+    margin: 0 10px;
+  }
+  
+
+.link   {
+    color: gold;
+    transition: color .4s;
+}
+
+.link:hover {
+    color: silver;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 50px;
+  }
+  
+.img {
+    border: 3px solid black;
+}
+
+.aside {
+    width: 300px;
+    flex: 0;
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.title  {
+    color: silver;
+    font-family: 'NotoSerif Regular', serif;
+}
+
+.subtitle {
+    border-left: 10px solid chocolate;
+    padding-left: 10px;
+    color: silver;
+    margin-top: 30px;
+    font-family: 'NotoSerif Regular', serif;
+    font-weight: 500;
+       
+}
+
+.contacts-item {
+    display: flex;
+    align-items: center;
+}
+
+.contacts-icon {
+    margin-right: 15px;
+}
+
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+    background-color: seashell;
+  }
